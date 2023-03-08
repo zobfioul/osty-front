@@ -15,3 +15,7 @@ npm run build
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deployement
+
+Nelify url : https://extraordinary-mousse-ac3fc4.netlify.app/

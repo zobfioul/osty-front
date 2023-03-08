@@ -28,11 +28,12 @@
                                     <label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
                                 </div>
                             </div>
-                            <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                            <NuxtLink to="/forgot-password" class="text-sm font-medium text-purple-600 hover:underline dark:text-purple-500">Forgot password?</NuxtLink>
                         </div>
                         <button type="submit" class="w-full text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Sign in</button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                            Don’t have an account yet? <a href="http://localhost:3000/signup" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                            Don’t have an account yet ?
+                            <NuxtLink to="/signup" class="font-medium text-purple-600 hover:underline dark:text-purple-500">Signup</NuxtLink>
                         </p>
                     </form>
                 </div>
